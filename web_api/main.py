@@ -5,6 +5,10 @@ from jose import JWTError, jwt
 from passlib.context import CryptContext
 import sqlite3
 
+"""
+user : admin    
+password : admin
+"""
 app = FastAPI()
 SECRET_KEY = "a_very_secret_key"
 ALGORITHM = "HS256"
